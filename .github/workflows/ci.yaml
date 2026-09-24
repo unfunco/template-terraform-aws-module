@@ -12,7 +12,7 @@ jobs:
 
   release:
     name: Release?
-    if: github.repository != 'unfunco/template-terraform-module'
+    if: github.repository != 'unfunco/template-terraform-aws-module'
     needs: [ verify ]
     permissions:
       contents: write
