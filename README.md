@@ -10,6 +10,7 @@ A template for creating a Terraform module repository.
 ### Requirements
 
 - [Terraform] 1.16+
+- [AWS provider] 6.67+ (below 7.0)
 
 ### Installation and usage
 
@@ -48,6 +49,7 @@ pull request is merged, a new release will be created.
 © 2026 [Daniel Morris]\
 Made available under the terms of the [MIT License].
 
+[aws provider]: https://registry.terraform.io/providers/hashicorp/aws/latest
 [conventional commit]: https://www.conventionalcommits.org
 [daniel morris]: https://unfun.co
 [mit license]: LICENSE.md
